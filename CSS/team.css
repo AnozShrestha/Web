@@ -1,0 +1,65 @@
+p {
+  margin: 0;
+}
+* {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.5;
+}
+.heading {
+  color: #2a2a72;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.title {
+  color: #2a2a72;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+
+}
+.team {
+text-align: center;
+margin-top: 1.5rem;
+
+}
+.team img {
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+.team p {
+font-size: 1.5rem;
+font-weight: 500;
+color: #3a3a44;
+margin-top: 1rem;
+}
+.team span {
+  display: block;
+  color: #3a3a44;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+
+
+}
+.team a {
+  margin-top: 0.25rem;
+  display: block;
+  font-size: 0.75rem;
+  color: #787885;
+  text-decoration: none;
+}
+.Title{
+  color: #2a2a72;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 5.25rem;
+
+}
+
+

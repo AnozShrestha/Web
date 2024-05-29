@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+    <style>
+      .circle {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: blue;
+        position: sticky;
+        top: 1rem;
+        bottom: 1rem;
+        left: 1rem;
+        right: 1rem;
+      }
+      .sticky {
+        position: sticky;
+        top: 0;
+        background-color: blue;
+      }
+      .parent {
+        background-color: gray;
+        width: 100%;
+        height: 400px;
+        position: relative;
+      }
+      .child {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- fixed
+    relative
+    sticky
+    absolute -->
+    <!-- <div class="circle"></div> -->
+
+    <!-- <div>
+      <div class="sticky">Hello world</div>
+      <h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium,
+        odio repellendus eius pariatur consequatur eaque nihil ut est rerum a
+        ullam minus ea quaerat eligendi dolor ipsa optio? Est labore dolorem
+        corporis? Eligendi ea cupiditate praesentium, distinctio animi, ipsum
+        architecto assumenda debitis enim pariatur tempore labore? Natus
+        explicabo fuga debitis ad veritatis sunt quasi aperiam doloremque,
+        doloribus atque consequuntur delectus temporibus officia possimus soluta
+        nulla impedit reiciendis distinctio eos obcaecati vel libero fugiat sit
+        dolores? Ipsum, quod molestias itaque delectus obcaecati, odio,
+        cupiditate incidunt dicta odit similique explicabo neque reiciendis
+        doloribus illum eius consequatur. Ducimus, enim amet? Fuga illum
+        eligendi, dignissimos voluptate reiciendis suscipit placeat tenetur
+        recusandae. Velit quos iure quam, voluptatum cumque necessitatibus neque
+        odit veritatis reiciendis iusto quae commodi, sunt consectetur,
+        blanditiis tempore fuga corporis enim magni deserunt deleniti ipsa
+        facere ducimus eum! Voluptas, asperiores ipsum natus excepturi, maxime
+        qui neque sint nam reiciendis ex odit nisi iure aperiam temporibus
+        soluta modi? Odit autem perferendis neque maxime non veritatis numquam
+        tempora animi eum laborum quis voluptates ab recusandae modi iure, enim
+        saepe explicabo quae nulla voluptatem. Deserunt perferendis cumque nobis
+        in quam quo aperiam eum dolor consectetur impedit veritatis laboriosam,
+        minus labore tenetur, alias ea, id officiis quidem. Officia esse
+        voluptatibus atque natus! Repudiandae tempora, animi praesentium, fuga
+        molestiae provident, nobis recusandae corporis asperiores ratione facere
+        aperiam culpa nihil delectus cumque neque? Vel, accusamus! Architecto
+        sed consequatur corrupti possimus atque distinctio facere, culpa earum?
+        Repellendus distinctio, minus alias culpa numquam hic. Laborum
+        consequuntur esse et adipisci sed, modi possimus incidunt neque cumque
+        ab ad error necessitatibus officiis rem laboriosam tempora fuga facere?
+        Dolores temporibus dolorum minima accusamus ex nihil laborum distinctio
+        iusto veritatis hic doloribus optio, quam itaque rem voluptate
+        perspiciatis quisquam molestias reprehenderit cupiditate quo culpa,
+        commodi sapiente iste sequi! Veniam quam dolorem repellat doloremque
+        deleniti totam!
+      </h1>
+    </div> -->
+    <div class="parent">
+      <div class="child"></div>
+    </div>
+  </body>
+</html>

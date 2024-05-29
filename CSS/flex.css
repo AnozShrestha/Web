@@ -1,0 +1,28 @@
+.box {
+  width: 200px;
+  /* height: 200px; */
+}
+.flexbox {
+  display: flex;
+  /* x direction by default flex */
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* width: 500px; */
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.red {
+  background-color: red;
+  flex-grow: 1;
+  height: 400px;
+  order: 2;
+}
+.green {
+  background-color: green;
+  flex-shrink: 0;
+  order: 3;
+}
+.blue {
+  background-color: blue;
+  order: 1;
+}
